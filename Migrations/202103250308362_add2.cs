@@ -16,10 +16,15 @@
                         Patient_lastname = c.String(),
                         Patient_email = c.String(),
                         Payment_date = c.DateTime(nullable: false),
+                        Payment_amount = c.Int(nullable: false),
+                        Bill_number = c.Int(nullable: false),
                         Card_number = c.Int(nullable: false),
                         Card_csv = c.Int(nullable: false)
-                        
-                    })
+
+
+                       
+        
+    })
                 .PrimaryKey(t => t.Payment_id);
             
         }

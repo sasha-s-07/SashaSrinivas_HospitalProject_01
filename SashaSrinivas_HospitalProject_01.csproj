@@ -152,6 +152,10 @@
     <Compile Include="Migrations\202103250308362_add2.designer.cs">
       <DependentUpon>202103250308362_add2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103250457451_add3.cs" />
+    <Compile Include="Migrations\202103250457451_add3.designer.cs">
+      <DependentUpon>202103250457451_add3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\HospitalDataContext.cs" />
     <Compile Include="Models\News_events.cs" />
@@ -217,6 +221,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103250308362_add2.resx">
       <DependentUpon>202103250308362_add2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103250457451_add3.resx">
+      <DependentUpon>202103250457451_add3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
