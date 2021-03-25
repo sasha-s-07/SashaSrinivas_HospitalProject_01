@@ -19,9 +19,10 @@ namespace SashaSrinivas_HospitalProject_01.Models
 
         public string Patient_email { get; set; }
         public DateTime Payment_date { get; set; }
+        public int Payment_amount { get; set; }
+        public int Bill_number { get; set; }
         public int Card_number { get; set; }
         public int Card_csv { get; set; }
-        public string Billing_address { get; set; }
          
     }
 
@@ -34,9 +35,11 @@ namespace SashaSrinivas_HospitalProject_01.Models
         public string Patient_lastname { get; set; }
         public string Patient_email { get; set; }
         public DateTime Payment_date { get; set; }
+        public int Payment_amount { get; set; }
+        public int Bill_number { get; set; }
         public int Card_number { get; set; }
         public int Card_csv { get; set; }
-        public string Billing_address { get; set; }
+        
 
 
 

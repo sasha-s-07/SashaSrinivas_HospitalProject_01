@@ -17,8 +17,8 @@
                         Patient_email = c.String(),
                         Payment_date = c.DateTime(nullable: false),
                         Card_number = c.Int(nullable: false),
-                        Card_csv = c.Int(nullable: false),
-                        Billing_address = c.String(),
+                        Card_csv = c.Int(nullable: false)
+                        
                     })
                 .PrimaryKey(t => t.Payment_id);
             
